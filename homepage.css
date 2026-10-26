@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+}
+.content-box {
+    width: 500px;
+    background-color: peachpuff;
+    padding: 20px 30px 20px 30px;
+}
+#horizontal-container {
+    display: inline-block;
+}
