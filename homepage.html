@@ -2,37 +2,55 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="homepage.css"/>
+		<title>Jace Mitchell Senior Project</title>
 	</head>
 	<body>
-		<h1>
+		<nav id="tabs">
+			<ul class="span-page" style="justify-content: start;">
+				<li>
+					<button id="homepage" class="tab-button" type="button">Homepage</button>
+				</li>
+				<li>
+					<button id="test" class="tab-button" type="button">Test</button>
+				</li>
+			</ul>
+		</nav>
+		<div id="homepage" class="section">
+			<h1 class="span-page">
 			Mycelium Composites
-		</h1>
-		<br/>
-		<div id="horizontal-container">
-			<div id="overview" class="content-box">
-				<h2>
-					Overview
-				</h2>
-				<p>
-					For this research project, I decided to investigate the mechanical properties of mycelium composites and how they vary with the substrate used to make them.  My preliminary research showed that the substrate has a large effect on density and mechanical properties, and the type of mycelium has less of an effect on mechanical properties, and no effect on thermal properties (Bayomei et al. 2026).  I will also test the electrical conductivity of mycelium composites to test their effect as a renewable insulator.
-				</p>
-			</div>
-			<div id="global-importance" class="content-box">
-				<h2>
-					Global Importance
-				</h2>
-				<p>
-					Mycelium composites, being composed of mycelium and a lignocellulosic substrate, are extremely biodegradable, making them a much more sustainable material than alternatives such as plastic.  Additionally, their growth is a fairly simple process, which means the only barrier to their use is their weak mechanical properties.  Already, however, there are proposed uses of them as insulation material in homes (Attias et al., 2019).  If their mechanical properties could be improved, however, they could become an extremely common material, possibly replacing plastics.
-				</p>
-			</div>
-			<div id="personal-importance" class="content-box">
-				<h2>
-					Personal Importance
-				</h2>
-				<p>
-					I believe that mycelium composites are interesting due to their potential ability to replace plastics.  For so long, plastics have been the most commonly used material, yet also the biggest sustainability problem.  Something that could replace them in many uses would likely be the biggest materials science revolution yet.  As such, I want to find ways to improve their strength so that they can be used in more scenarios.
-				</p>
-			</div>
+			</h1>
+			<br/>
+			<ul class="span-page">
+				<li id="overview" class="content-box">
+					<h2>
+						Overview
+					</h2>
+					<p>
+						For this research project, I decided to investigate the mechanical properties of mycelium composites and how they vary with the substrate used to make them.  My preliminary research showed that the substrate has a large effect on density and mechanical properties, and the type of mycelium has less of an effect on mechanical properties, and no effect on thermal properties (Bayomei et al. 2026).  I will also test the electrical conductivity of mycelium composites to test their effect as a renewable insulator.
+					</p>
+				</li>
+				<li id="global-importance" class="content-box">
+					<h2>
+						Global Importance
+					</h2>
+					<p>
+						Mycelium composites, being composed of mycelium and a lignocellulosic substrate, are extremely biodegradable, making them a much more sustainable material than alternatives such as plastic.  Additionally, their growth is a fairly simple process, which means the only barrier to their use is their weak mechanical properties.  Already, however, there are proposed uses of them as insulation material in homes (Attias et al., 2019).  If their mechanical properties could be improved, however, they could become an extremely common material, possibly replacing plastics.
+					</p>
+				</li>
+				<li id="personal-importance" class="content-box">
+					<h2>
+						Personal Importance
+					</h2>
+					<p>
+						I believe that mycelium composites are interesting due to their potential ability to replace plastics.  For so long, plastics have been the most commonly used material, yet also the biggest sustainability problem.  Something that could replace them in many uses would likely be the biggest materials science revolution yet.  As such, I want to find ways to improve their strength so that they can be used in more scenarios.
+					</p>
+				</li>
+			</ul>
+			<img src=""/>
 		</div>
+		<div id="test" class="section" hidden>
+			<p>Test</p>
+		</div>
+		<script src="page.js"></script>
 	</body>
 </html>
